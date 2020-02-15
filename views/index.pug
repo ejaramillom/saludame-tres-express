@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title  Pares
+  body
+    #hello-form
+    h1 Bienvenido! Dime a quien debo saludar?
+    form(action='/saludo' method='post')
+      label(for='name')
+      input(type='text' name='nombre')
+      input(type='submit' name='Saludame!')
